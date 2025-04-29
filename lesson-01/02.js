@@ -6,7 +6,7 @@
 */
 
 // your code
-let factorial = 10
+let factorial = 1
 let i = 1
 let initial = 10
 while (i <= initial) {
