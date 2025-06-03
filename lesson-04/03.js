@@ -32,4 +32,4 @@ function findCommonElements(array1, array2) {
     return commonArray
 }
 
-console.log(findCommonElements([1, 2, 3], [2, 3, 4]))
+console.log(findCommonElements(['apple', 'banana', 'cherry'], ['banana']))
