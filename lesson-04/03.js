@@ -25,7 +25,7 @@ function includesElement(array, element) {
 
 function findCommonElements(array1, array2) {
     let commonArray = []
-    for (element of array1) {
+    for (let element of array1) {
         if (includesElement(array2, element)) commonArray.push(element)
         else continue
     }

@@ -14,7 +14,7 @@
 
 function doubleEachCharacter(string) {
     doubleString = ''
-    for (sym of string) {
+    for (let sym of string) {
         doubleString += sym
         doubleString += sym
     }
