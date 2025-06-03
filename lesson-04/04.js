@@ -12,4 +12,13 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter() {}
+function doubleEachCharacter(string) {
+    doubleString = ''
+    for (sym of string) {
+        doubleString += sym
+        doubleString += sym
+    }
+    return doubleString
+}
+
+console.log(doubleEachCharacter('hello'))
