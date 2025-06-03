@@ -13,7 +13,7 @@
 */
 
 function doubleEachCharacter(string) {
-    doubleString = ''
+    let doubleString = ''
     for (let sym of string) {
         doubleString += sym
         doubleString += sym
